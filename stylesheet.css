@@ -1,8 +1,8 @@
 #container{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(5, 10em );
-    grid-template-rows : repeat(5, 10em );
+    grid-template-columns: repeat(10, auto );
+    grid-template-rows : repeat(10, auto );
 }
 
 .grid-item{
