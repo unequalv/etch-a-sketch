@@ -1,0 +1,13 @@
+#container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 10em );
+    grid-template-rows : repeat(5, 10em );
+}
+
+.grid-item{
+    padding: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
