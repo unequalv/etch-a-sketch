@@ -13,3 +13,7 @@ for (let i = 0; i < 100; i++) {
         item[i].style.backgroundColor = "black";
     }
 }
+
+function refreshPage() {
+    window.location.reload();
+}
