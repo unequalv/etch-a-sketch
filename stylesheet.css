@@ -1,8 +1,12 @@
+:root {
+  --tiles:25;
+}
+
 #container{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(10, auto );
-    grid-template-rows : repeat(10, auto );
+    grid-template-columns: repeat(var(--tiles), auto );
+    grid-template-rows : repeat(var(--tiles), auto );
 }
 
 .item{
