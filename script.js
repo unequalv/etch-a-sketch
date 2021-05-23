@@ -24,5 +24,7 @@ for (let i = 0; i < (tiles * tiles); i++) {
 }
 
 function refreshPage() {
-    window.location.reload();
+    for (let i = 0; i < (tiles * tiles); i++) {
+        item[i].style.backgroundColor = "white";
+    }
 }
